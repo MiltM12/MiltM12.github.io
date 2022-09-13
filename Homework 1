@@ -1,0 +1,39 @@
+<html>
+
+	<head>
+
+	<h2>Activity 1</h2>
+			<script>
+
+				function Question1() {
+				alert('Question1'); 
+					
+					document.getElementById("assessment").innerHTML = "Button 1 does something ";
+				}
+
+				function Question2() {
+				alert('Question2');
+
+					document.getElementById("assessment").innerHTML = "Button 2 does something ";
+
+				}
+				
+			</script>
+	</head>
+
+	<body>
+	
+	<div>
+		
+		<button onclick="Question1()"> 1st Button </button>
+		<br>
+		<button onclick="Question2()"> 2nd Button </button>
+	
+	</div>
+
+	<div id="assessment">
+
+	</body>
+
+
+</html>
