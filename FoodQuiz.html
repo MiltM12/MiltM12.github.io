@@ -1,0 +1,72 @@
+<html>
+
+	<head>
+
+	<meta charset="utf-8">
+
+	<h2>What Type of Food You Should Eat Base Off How You Feel Quiz</h2>
+
+	<h3>How are you feeling today ? <h3> 
+			<script>
+
+				function Happy() {
+				alert('You choose Happy, consider eating: '); 
+					
+					document.getElementById("assessment").innerHTML = "I'm glad to hear that, go get yourself a nice sandwhich to continue your happy day";
+					document.body.style.backgroundColor ="yellow"
+				}
+
+				function Crappy() {
+				alert('You choose Crappy, consider eating:');
+
+					document.getElementById("assessment").innerHTML = "It's alright we all have bad days, try finding a apple to eat";
+					document.body.style.backgroundColor ="green"
+
+				}
+				function Sad() {
+				alert('You choose Sad, consider eating:');
+
+					document.getElementById("assessment").innerHTML = "Sorry to hear that get a bowl of ramen, helpfully cheers you up";
+					document.body.style.backgroundColor ="lightblue"
+
+				}
+				function Angry() {
+				alert('You choose Angry, consider eating:');
+
+					document.getElementById("assessment").innerHTML = "Let's get you a ice cream, calm those nerves down ";
+					document.body.style.backgroundColor ="red"
+
+				}
+				function Scared() {
+				alert('You choose Scared, consider eating:');
+
+					document.getElementById("assessment").innerHTML = "Don't be scared, superman not here but a burger is near ";
+					document.body.style.backgroundColor ="purple"
+
+				}
+				
+			</script>
+	</head>
+
+	<body>
+	
+	<div>
+		
+		<button onclick="Happy()"> Happy </button>
+		<br>
+		<button onclick="Crappy()"> Crappy </button>
+		<br>
+		<button onclick="Sad()"> Sad </button>
+		<br>
+		<button onclick="Angry()"> Angry </button>
+		<br>
+		<button onclick="Scared()"> Scared </button>
+	
+	</div>
+
+	<div id="assessment">
+
+	</body>
+
+
+</html>
