@@ -1,0 +1,35 @@
+<!doctype html>
+  <html lang="en">
+    <head>
+
+    <meta charset="utf-8">
+
+    <title>First Object</title>
+
+    <script>
+
+    function eyeType(name, age, color, size) {
+          this.name = name;
+          this.age = age;
+          this.color = color;
+          this.size = size;
+          this.notice = function() {
+          alert(this.name + " has " + this.color + "eyes");
+          }
+        }
+
+    var kimEyes = new eyeType('Kim',9,'brown','small')
+
+    console.log(kimEyes);
+
+    </script>
+
+
+  </head>
+
+  <body>
+
+
+  </body>
+
+ </html>
